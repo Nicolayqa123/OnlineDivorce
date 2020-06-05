@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suites">
+    <test name="Test">
+        <classes>
+            <class name="Testsu">
+        </classes>>
+    </test>>
+
+
+    <suite-files>
+        <suite-file path="//OnlineDivorce/Testsuite1.xml"/>
+        <suite-file path="/suites/suite2.xml"/>
+    </suite-files>
+</suite>
