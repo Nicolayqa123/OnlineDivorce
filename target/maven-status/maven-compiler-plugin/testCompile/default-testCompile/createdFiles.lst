@@ -5,7 +5,7 @@ com\OnlineDivorce\Page\Case_Details.class
 com\OnlineDivorce\Log_in.class
 com\OnlineDivorce\Order_Check.class
 com\OnlineDivorce\Qualify_Form.class
-com\OnlineDivorce\TestSuite.class
+com\OnlineDivorce\TestSuite_Login.class
 com\OnlineDivorce\Testsuite1\First_Test.class
 com\OnlineDivorce\TestRunner.class
 com\OnlineDivorce\Case_Details_Start.class

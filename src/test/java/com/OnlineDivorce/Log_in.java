@@ -45,7 +45,7 @@ public class Log_in extends WebDriverSettings  {
         driver.get(URLDivorce);
         Landing.login(driver).click();
         Landing.reset_password(driver).click();
-        Landing.E_mail(driver).sendKeys("");
+        driver.findElementByXPath("//*[@id=\"reset-form\"]/form/div[3]/div/button").click();
         TestCase.assertEquals("Please enter email", driver.findElement(By.cssSelector("div.text-center:nth-child(2)")).getText());
     }
     @Test
