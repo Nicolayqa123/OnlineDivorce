@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ee98ec-0caa-45ba-b951-6fc45725e217" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Registration.java" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.OnlineDivorce.TestSuite.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.OnlineDivorce.TestSuite_Login.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.OnlineDivorce.TestSuite.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.OnlineDivorce.TestSuite_Login.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestRunner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,9 +65,11 @@
       <file leaf-file-name="TestSuite_Registration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="210">
               <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="35" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -602,7 +599,7 @@
       <workItem from="1591376007881" duration="2039000" />
       <workItem from="1591714252847" duration="2416000" />
       <workItem from="1591776462106" duration="4396000" />
-      <workItem from="1591798604493" duration="2283000" />
+      <workItem from="1591798604493" duration="3086000" />
     </task>
     <task id="LOCAL-00001" summary="tesr">
       <created>1591376067838</created>
@@ -668,7 +665,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62729000" />
+    <option name="totallyTimeSpent" value="63532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,9 +1057,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Registration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="210">
           <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
