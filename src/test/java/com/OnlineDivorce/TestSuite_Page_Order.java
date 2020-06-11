@@ -5,8 +5,8 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 
 @Suite.SuiteClasses({
-        Log_in.class
+        Page_Order_Support.class
 })
 
-public class TestSuite_Login2 {
+public class TestSuite_Page_Order {
 }
