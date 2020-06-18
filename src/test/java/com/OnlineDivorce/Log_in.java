@@ -12,6 +12,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 public class Log_in extends WebDriverSettings  {
 
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase(key = "JQA-T1")
     public void log_in () {
         driver.get(URLDivorce);
         Landing.login(driver).click();
@@ -23,6 +24,7 @@ public class Log_in extends WebDriverSettings  {
 
     }
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase(key = "JQA-T2")
     public void log_in_Empty () throws InterruptedException {
         driver.get(URLDivorce);
         Landing.login(driver).click();
@@ -32,6 +34,7 @@ public class Log_in extends WebDriverSettings  {
     }
 
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase(name = "Sign Up in Login")
     public void log_in_Sing_up () throws InterruptedException {
         driver.get(URLDivorce);
         Landing.login(driver).click();
