@@ -44,6 +44,7 @@ public class Log_in extends WebDriverSettings  {
     }
 
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T82")
     public void log_in_ResetPass_Empty () {
         driver.get(URLDivorce);
         Landing.login(driver).click();
@@ -52,6 +53,7 @@ public class Log_in extends WebDriverSettings  {
         TestCase.assertEquals("Please enter email", driver.findElement(By.cssSelector("div.text-center:nth-child(2)")).getText());
     }
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T80")
     public void log_in_ResetPass () throws InterruptedException {
         driver.get(URLDivorce);
         Landing.login(driver).click();
