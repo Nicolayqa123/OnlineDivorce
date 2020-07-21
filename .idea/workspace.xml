@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89ee98ec-0caa-45ba-b951-6fc45725e217" name="Default" comment="fix">
+    <list default="true" id="89ee98ec-0caa-45ba-b951-6fc45725e217" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestNG.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Case_Details_Start.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Case_Details_Start.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Log_in.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Log_in.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Log_in_Suppport.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Log_in_Suppport.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Page_Order_Support.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Support/Page_Order_Support.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Qualify_Form.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Qualify_Form.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestRunner.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Login.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Login.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Login_Support.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Login_Support.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Page_Order.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Page_Order.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Registration.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Registration.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Testsuite1/First_Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Testsuite1/First_Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Testsuite2/Second_Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Testsuite2/Second_Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/WebDriverSettings.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestRunner.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Login.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Login_Support.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Page_Order.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/TestSuite_Registration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Testsuite1/First_Test.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Testsuite2/Second_Test.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,8 +103,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="378">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -620,7 +613,7 @@
       <workItem from="1594297455265" duration="882000" />
       <workItem from="1594730580048" duration="1239000" />
       <workItem from="1595259164771" duration="2355000" />
-      <workItem from="1595339074052" duration="3482000" />
+      <workItem from="1595339074052" duration="4160000" />
     </task>
     <task id="LOCAL-00001" summary="tesr">
       <created>1591376067838</created>
@@ -685,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593617445993</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix">
+      <created>1595348469427</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595348469428</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -721,7 +721,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84972000" />
+    <option name="totallyTimeSpent" value="85650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,13 +738,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25934315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1125,8 +1125,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="378">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
