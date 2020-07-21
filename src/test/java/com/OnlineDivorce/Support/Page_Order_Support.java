@@ -1,5 +1,6 @@
-package com.OnlineDivorce;
+package com.OnlineDivorce.Support;
 
+import com.OnlineDivorce.WebDriverSettings;
 import org.junit.Test;
 import org.openqa.selenium.By;
 

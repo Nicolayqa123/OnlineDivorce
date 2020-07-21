@@ -13,6 +13,7 @@ import static junit.framework.TestCase.assertEquals;
 
 public class Case_Details_Start extends WebDriverSettings {
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T82")
     public void new_client() throws InterruptedException {
         driver.get(URLDivorce);
         Landing.start_Now(driver).click();
@@ -27,7 +28,7 @@ public class Case_Details_Start extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(5);
 
         Select you_are = new Select(driver.findElement(By.name("you_are")));
-        you_are.selectByValue("husband");
+        you_are.selectByVisibleText("Husband");
         Case_Details.continue_(driver).click();
         TimeUnit.SECONDS.sleep(5);
         Select month = new Select(driver.findElement(By.name("month")));

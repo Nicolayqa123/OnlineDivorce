@@ -19,8 +19,9 @@ import java.util.concurrent.TimeUnit;
 
 public class WebDriverSettings {
 
-   // String URLDivorce = "https://divorcer.urgentpapers.org/";
-     String URLDivorce = "https://divorcer-stage2client.urgentpapers.org/";
+   // String URLDivorcePreR = "https://divorcer.urgentpapers.org/";
+    public String URLDivorceSupportStage ="https://divorcer-stage2support.urgentpapers.org";
+    public String URLDivorce = "https://divorcer-stage2client.urgentpapers.org/";
 
      public FirefoxDriver driver;
 

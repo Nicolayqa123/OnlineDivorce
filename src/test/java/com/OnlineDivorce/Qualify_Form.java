@@ -12,6 +12,7 @@ import static junit.framework.TestCase.assertEquals;
 
 public class Qualify_Form extends WebDriverSettings {
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T83")
     public void qualify_success() throws InterruptedException {
         Random r = new Random();
         int x = r.nextInt(90000) + 1;
@@ -28,6 +29,7 @@ public class Qualify_Form extends WebDriverSettings {
 
     }
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T86")
     public void qualify_phone() throws InterruptedException {
         Random r = new Random();
         int x = r.nextInt(90000) + 1;

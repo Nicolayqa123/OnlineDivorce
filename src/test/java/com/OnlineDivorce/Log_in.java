@@ -12,7 +12,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 public class Log_in extends WebDriverSettings  {
 
     @Test
-    @com.adaptavist.tm4j.junit.annotation.TestCase(key = "ON-T1")
+    @com.adaptavist.tm4j.junit.annotation.TestCase(key = "ON-T76")
     public void log_in () {
         driver.get(URLDivorce);
         Landing.login(driver).click();
@@ -24,7 +24,7 @@ public class Log_in extends WebDriverSettings  {
 
     }
     @Test
-    @com.adaptavist.tm4j.junit.annotation.TestCase(key = "ON-T2")
+    @com.adaptavist.tm4j.junit.annotation.TestCase(key = "ON-T78")
     public void log_in_Empty () throws InterruptedException {
         driver.get(URLDivorce);
         Landing.login(driver).click();
@@ -34,7 +34,7 @@ public class Log_in extends WebDriverSettings  {
     }
 
     @Test
-    @com.adaptavist.tm4j.junit.annotation.TestCase(name = "Sign Up in Login")
+    @com.adaptavist.tm4j.junit.annotation.TestCase(key = "ON-T136")
     public void log_in_Sing_up () throws InterruptedException {
         driver.get(URLDivorce);
         Landing.login(driver).click();
@@ -58,6 +58,7 @@ public class Log_in extends WebDriverSettings  {
         driver.get(URLDivorce);
         Landing.login(driver).click();
         Landing.reset_password(driver).click();
+        SECONDS.sleep(1);
         driver.findElementById("email-reset").sendKeys("nicolayqa@gmail.com");
         driver.findElementByCssSelector(".button-submit").click();
         SECONDS.sleep(1);
@@ -65,6 +66,7 @@ public class Log_in extends WebDriverSettings  {
         TestCase.assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.", driver.findElement(By.cssSelector("#success-reset > div:nth-child(2) > p:nth-child(1)")).getText());
     }
     @Test
+    @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T104")
     public void pay () throws InterruptedException {
         driver.get(URLDivorce);
         Landing.login(driver).click();
