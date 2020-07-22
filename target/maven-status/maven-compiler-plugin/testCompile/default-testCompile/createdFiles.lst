@@ -1,9 +1,11 @@
 com\OnlineDivorce\Page\Landing.class
 com\OnlineDivorce\WebDriverSettings$1.class
 com\OnlineDivorce\WebDriverSettings.class
+com\OnlineDivorce\Client\Log_inTest.class
 com\OnlineDivorce\Page\Case_Details.class
 com\OnlineDivorce\Order_Check.class
-com\OnlineDivorce\Qualify_Form.class
+com\OnlineDivorce\Client\Qualify_FormTest.class
+com\OnlineDivorce\Support\Log_in_Suppport.class
+com\OnlineDivorce\Client\LandingTest.class
 com\OnlineDivorce\Support\Page_Order_Support.class
-com\OnlineDivorce\Case_Details_Start.class
-com\OnlineDivorce\Log_inTest.class
+com\OnlineDivorce\Client\Case_Details_Start.class
