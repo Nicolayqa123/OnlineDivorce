@@ -48,6 +48,7 @@
             <groupId>com.adaptavist</groupId>
             <artifactId>tm4j-junit-integration</artifactId>
             <version>1.0.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -56,8 +57,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
+                <version>2.22.1</version>
                 <configuration>
+                    <excludes>
+                        <exclude>**/Test.java</exclude>
+                        <include>*Test.java</include>
+                        <include>**/*Test.java</include>
+                    </excludes>
                     <properties>
                         <property>
                             <name>listener</name>
