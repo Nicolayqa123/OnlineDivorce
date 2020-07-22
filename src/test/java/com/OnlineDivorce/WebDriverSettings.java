@@ -20,21 +20,20 @@ import java.util.concurrent.TimeUnit;
 public class WebDriverSettings {
 
    // String URLDivorcePreR = "https://divorcer.urgentpapers.org/";
-    public String URLDivorceSupportStage ="https://divorcer-stage2support.urgentpapers.org";
-    public String URLDivorce = "https://divorcer-stage2client.urgentpapers.org/";
 
+     protected String URLDivorceSupportStage ="https://divorcer-stage2support.urgentpapers.org";
+     protected String URLDivorce = "https://divorcer-stage2client.urgentpapers.org/";
      public FirefoxDriver driver;
 
     @Rule
      public TestWatcher watcher = new TestWatcher() {
 
+
+
+
+
         @Override
         protected void starting(Description description) {
-
-
-
-
-
             System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
             driver = new FirefoxDriver();
 
@@ -43,6 +42,9 @@ public class WebDriverSettings {
             driver.manage().timeouts().pageLoadTimeout(6000, TimeUnit.SECONDS);
             driver.manage().window().setSize(new Dimension(1400, 800));
             //  driver.manage().window().maximize();
+
+
+
 
 
 
