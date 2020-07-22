@@ -38,9 +38,9 @@ public class WebDriverSettings {
             System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
             driver = new FirefoxDriver();
 
-            driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(6000, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(6000, TimeUnit.SECONDS);
             driver.manage().window().setSize(new Dimension(1400, 800));
             //  driver.manage().window().maximize();
 
