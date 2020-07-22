@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89ee98ec-0caa-45ba-b951-6fc45725e217" name="Default" comment="new test">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/LandingTest.java" />
+    <list default="true" id="89ee98ec-0caa-45ba-b951-6fc45725e217" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Case_Details_Start.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_StartTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Log_in.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Log_inTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Log_in_Suppport.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Support/Log_in_Suppport.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Qualify_Form.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Qualify_FormTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_StartTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_Start.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +20,7 @@
   <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Qualify_FormTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Qualify_FormTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Qualify_FormTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
@@ -48,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Case_Details_StartTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_StartTest.java">
+      <file leaf-file-name="Case_Details_Start.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="441">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Page/Landing.java" />
         <option value="$PROJECT_DIR$/src/test/java/Case_Details_Start.java" />
         <option value="$PROJECT_DIR$/src/test/java/Order_Check.java" />
         <option value="$PROJECT_DIR$/src/test/java/Page/First_Test.java" />
@@ -210,10 +201,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Log_inTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Qualify_FormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Support/Log_in_Suppport.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_StartTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Landing.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/LandingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Qualify_FormTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_StartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_Start.java" />
       </list>
     </option>
   </component>
@@ -642,7 +634,7 @@
       <workItem from="1594730580048" duration="1239000" />
       <workItem from="1595259164771" duration="2355000" />
       <workItem from="1595339074052" duration="5398000" />
-      <workItem from="1595420261551" duration="6118000" />
+      <workItem from="1595420261551" duration="6864000" />
     </task>
     <task id="LOCAL-00001" summary="tesr">
       <created>1591376067838</created>
@@ -721,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595350555578</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new test">
+      <created>1595426524223</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595426524223</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -757,7 +756,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93006000" />
+    <option name="totallyTimeSpent" value="93752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,7 +773,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -885,7 +884,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_StartTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1533">
           <caret line="82" column="47" lean-forward="true" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
@@ -1082,14 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_StartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Log_inTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1112,6 +1103,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/OnlineDivorce/Client/Case_Details_Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

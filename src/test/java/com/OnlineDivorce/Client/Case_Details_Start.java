@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class Case_Details_StartTest extends WebDriverSettings {
+public class Case_Details_Start extends WebDriverSettings {
     @Test
     @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T79")
     public void new_client() throws InterruptedException {
