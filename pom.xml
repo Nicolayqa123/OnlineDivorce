@@ -59,11 +59,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
-                    <excludes>
-                        <exclude>**/Test.java</exclude>
-                        <include>*Test.java</include>
-                        <include>**/*Test.java</include>
-                    </excludes>
                     <properties>
                         <property>
                             <name>listener</name>
