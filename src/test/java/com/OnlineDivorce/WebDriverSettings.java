@@ -37,9 +37,9 @@ public class WebDriverSettings {
             System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
             driver = new FirefoxDriver();
 
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
             driver.manage().window().setSize(new Dimension(1400, 800));
             //  driver.manage().window().maximize();
 
@@ -155,5 +155,14 @@ public class WebDriverSettings {
 
 
 
+    protected void log_in (String mail, String password) {
+        driver.get(URLDivorce);
+        Landing.login(driver).click();
+        Landing.E_mail(driver).sendKeys(mail);
+        Landing.Password(driver).sendKeys(password);
+        Landing.sign_in(driver).click();
+
+
+    }
 
 }

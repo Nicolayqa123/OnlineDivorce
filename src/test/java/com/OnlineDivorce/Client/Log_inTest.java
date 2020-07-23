@@ -35,7 +35,7 @@ public class Log_inTest extends WebDriverSettings {
         Landing.Password(driver).sendKeys("1456321");
         Landing.sign_in(driver).click();
         SECONDS.sleep(2);
-        assertEquals("Please enter a correct username and password.\n", driver.findElement(By.cssSelector("#login > form > div.modal-body.grey-input-wrapper > div")).getText());
+        assertEquals("Please enter a correct username and password.", driver.findElement(By.cssSelector("#login > form > div.modal-body.grey-input-wrapper > div")).getText());
 
 
     }
@@ -93,7 +93,7 @@ public class Log_inTest extends WebDriverSettings {
         driver.findElementByCssSelector(".button-submit").click();
         SECONDS.sleep(1);
 
-        TestCase.assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.", driver.findElement(By.cssSelector("#success-reset > div:nth-child(2) > p:nth-child(1)")).getText());
+        assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.", driver.findElement(By.cssSelector("#success-reset > div:nth-child(2) > p:nth-child(1)")).getText());
     }
     @Test
     @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T104")
