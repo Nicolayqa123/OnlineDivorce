@@ -37,9 +37,9 @@ public class WebDriverSettings {
             System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
             driver = new FirefoxDriver();
 
-            driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(6000, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(6000, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
             driver.manage().window().setSize(new Dimension(1400, 800));
             //  driver.manage().window().maximize();
 
@@ -52,12 +52,12 @@ public class WebDriverSettings {
 
 
         @Override
-        public void finished(Description description) {
+        protected void finished(Description description) {
             driver.quit();
         }
 
         @Override
-        public void failed(Throwable e, Description description) {
+        protected void failed(Throwable e, Description description) {
          //   String newAutoTest = "TestFailure";
             File screenshot = driver.
                     getScreenshotAs(OutputType.FILE);
