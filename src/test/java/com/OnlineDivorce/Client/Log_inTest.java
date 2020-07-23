@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class Log_inTest extends WebDriverSettings {
 
@@ -61,7 +62,7 @@ public class Log_inTest extends WebDriverSettings {
 
     @Test
     @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T82")
-    public void log_in_ResetPass_Empty () {
+    public void ResetPass_Empty () {
         driver.get(URLDivorce);
         Landing.login(driver).click();
         Landing.reset_password(driver).click();
@@ -70,7 +71,7 @@ public class Log_inTest extends WebDriverSettings {
     }
     @Test
     @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T81")
-    public void log_in_ResetPass_notValid () throws InterruptedException {
+    public void ResetPass_notValid () throws InterruptedException {
         driver.get(URLDivorce);
         Landing.login(driver).click();
         Landing.reset_password(driver).click();
@@ -84,7 +85,7 @@ public class Log_inTest extends WebDriverSettings {
 
     @Test
     @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T80")
-    public void log_in_ResetPass () throws InterruptedException {
+    public void ResetPass () throws InterruptedException {
         driver.get(URLDivorce);
         Landing.login(driver).click();
         Landing.reset_password(driver).click();
@@ -92,8 +93,8 @@ public class Log_inTest extends WebDriverSettings {
         driver.findElementById("email-reset").sendKeys("nicolayqa@gmail.com");
         driver.findElementByCssSelector(".button-submit").click();
         SECONDS.sleep(1);
-
-        assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.", driver.findElement(By.cssSelector("#success-reset > div:nth-child(2) > p:nth-child(1)")).getText());
+        assertTrue(driver.findElement(By.cssSelector("#success-reset > div:nth-child(2) > p:nth-child(1)")).getText().contains("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours."));
+       // assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.", driver.findElement(By.cssSelector("#success-reset > div:nth-child(2) > p:nth-child(1)")).getText());
     }
     @Test
     @com.adaptavist.tm4j.junit.annotation.TestCase (key = "ON-T104")
