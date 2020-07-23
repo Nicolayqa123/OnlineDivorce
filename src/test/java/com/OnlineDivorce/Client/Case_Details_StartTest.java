@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import static java.util.concurrent.TimeUnit.SECONDS;
 import static junit.framework.TestCase.assertEquals;
 
 public class Case_Details_StartTest extends WebDriverSettings {
@@ -26,6 +27,8 @@ public class Case_Details_StartTest extends WebDriverSettings {
             Case_Details.first_name(driver).sendKeys("Test First");
             Case_Details.last_name(driver).sendKeys("Test Last");
         Case_Details.continue_(driver).click();
+        SECONDS.sleep(3);
+
         Select you_are = new Select(driver.findElement(By.name("you_are")));
         you_are.selectByVisibleText("Husband");
         Case_Details.continue_(driver).click();

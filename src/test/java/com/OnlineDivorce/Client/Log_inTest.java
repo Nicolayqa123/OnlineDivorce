@@ -92,7 +92,7 @@ public class Log_inTest extends WebDriverSettings {
         SECONDS.sleep(1);
         driver.findElementById("email-reset").sendKeys("nicolayqa@gmail.com");
         driver.findElementByCssSelector(".button-submit").click();
-        SECONDS.sleep(1);
+        SECONDS.sleep(5);
         assertTrue(driver.findElement(By.cssSelector("#success-reset > div:nth-child(2) > p:nth-child(1)")).getText().contains("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours."));
        // assertEquals("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours.", driver.findElement(By.cssSelector("#success-reset > div:nth-child(2) > p:nth-child(1)")).getText());
     }
