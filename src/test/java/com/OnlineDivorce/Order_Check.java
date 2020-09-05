@@ -32,12 +32,12 @@ public class Order_Check extends WebDriverSettings {
         you_are.selectByValue("husband");
         Case_Details.continue_(driver).click();
         TimeUnit.SECONDS.sleep(5);
-        Select month = new Select(driver.findElement(By.name("month")));
+        /*Select month = new Select(driver.findElement(By.name("month")));
         month.selectByValue("5");
         Case_Details.day(driver).sendKeys("15");
         Case_Details.year(driver).sendKeys("1995");
         Case_Details.city_married(driver).sendKeys("Kiev");
-        Case_Details.continue_(driver).click();
+        Case_Details.continue_(driver).click();*/
         TimeUnit.SECONDS.sleep(3);
         Select children_count = new Select(driver.findElement(By.name("children_count")));
         children_count.selectByValue("3");

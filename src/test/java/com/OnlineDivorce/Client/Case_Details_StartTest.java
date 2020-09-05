@@ -33,13 +33,13 @@ public class Case_Details_StartTest extends WebDriverSettings {
         you_are.selectByVisibleText("Husband");
         Case_Details.continue_(driver).click();
 
-        Select month = new Select(driver.findElement(By.name("month")));
+        /*Select month = new Select(driver.findElement(By.name("month")));
         month.selectByValue("5");
         Case_Details.day(driver).sendKeys("15");
         Case_Details.year(driver).sendKeys("1995");
         Case_Details.city_married(driver).sendKeys("Kiev");
         Case_Details.continue_(driver).click();
-
+*/
         Select children_count = new Select(driver.findElement(By.name("children_count")));
         children_count.selectByValue("3");
         Select wife_pregnant = new Select(driver.findElement(By.name("wife_pregnant")));
@@ -83,9 +83,11 @@ public class Case_Details_StartTest extends WebDriverSettings {
         Select either_party_military_member = new Select(driver.findElement(By.name("either_party_military_member")));
         either_party_military_member.selectByValue("no");
         Case_Details.continue_(driver).click();
+        TimeUnit.SECONDS.sleep(2000);
 
         Case_Details.password(driver).sendKeys("123456");
         Case_Details.continue_(driver).click();
+        TimeUnit.SECONDS.sleep(2000);
 
         Case_Details.password(driver).sendKeys("123456");
         Case_Details.continue_(driver).click();

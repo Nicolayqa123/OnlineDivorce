@@ -20,7 +20,7 @@ public class QuestionnareTest extends WebDriverSettings {
         driver.findElementByCssSelector("#root > div > div:nth-child(1) > div.right-side > div.content-wrapper.with-breadcrumbs > div > div > div > div > div.row > div.col-md-9 > div > div > div:nth-child(2) > div.row > div:nth-child(1) > div > label:nth-child(6) > input[type=checkbox]").click();
         assertEquals("", driver.findElement(By.cssSelector("#root > div > div:nth-child(1) > div.right-side > div.content-wrapper.with-breadcrumbs > div > div > div > div > div.row > div.col-md-9 > div > div > div:nth-child(2) > div.row > div:nth-child(1) > div > div:nth-child(3) > input")).getText());
     }
-    @Test
+
     @com.adaptavist.tm4j.junit.annotation.TestCase(key = "ON-T26")
     public void right_menu () throws InterruptedException {
         log_in("nicolayqa+441@gmail.com", "123456");
